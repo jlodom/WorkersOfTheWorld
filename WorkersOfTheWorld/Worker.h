@@ -2,11 +2,14 @@
 class Worker
 {
 
+private:
+	// Name goes here when we have time to figure out string issue.
+	int id = -1;
+
 protected:
-	// Name goes here
 	float hoursWorked = 0;
 	float maxHoursPerWeek = 0;
-	int id = -1;
+	int GetId();
 
 public:
 	Worker(float tempId, float tempHoursPerWeek);

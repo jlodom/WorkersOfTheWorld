@@ -32,6 +32,10 @@ float Worker::AnnualPay() {
 	return 0;
 }
 
+int Worker::GetId() {
+	return this->id;
+}
+
 
 int Worker::PayPeriodsPerYear() {
 	return 0;

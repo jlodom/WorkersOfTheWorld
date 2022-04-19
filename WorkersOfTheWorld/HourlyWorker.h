@@ -8,6 +8,6 @@ protected:
 
 public:
 	HourlyWorker(float tempId, float tempHoursPerWeek, float tempHourlyWage);
-
+	float CurrentPayCheck();
 };
 
