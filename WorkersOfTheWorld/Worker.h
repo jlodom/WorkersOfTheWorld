@@ -9,9 +9,11 @@ private:
 	int id = -1;
 
 public:
+	Worker(float tempId, float tempHoursPerWeek);
 	float AnnualPay();
-	float CurrentPayCheck();
+	virtual float CurrentPayCheck();
 	int PayPeriodsPerYear();
 	float Bonus();
+	bool ChangeHoursWorked(float change);
 };
 
