@@ -1,3 +1,4 @@
+#pragma once
 #include "HourlyWorker.h"
 
 HourlyWorker::HourlyWorker(float tempId, float tempHoursPerWeek, float tempHourlyWage) 
