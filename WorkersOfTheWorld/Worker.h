@@ -2,7 +2,7 @@
 class Worker
 {
 
-private:
+protected:
 	// Name goes here
 	float hoursWorked = 0;
 	float maxHoursPerWeek = 0;
